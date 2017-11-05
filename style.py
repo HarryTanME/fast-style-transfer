@@ -15,10 +15,10 @@ LEARNING_RATE = 1e-3
 NUM_EPOCHS = 2
 CHECKPOINT_DIR = 'checkpoints'
 CHECKPOINT_ITERATIONS = 2000
-VGG_PATH = 'data/imagenet-vgg-verydeep-19.mat'
-TRAIN_PATH = 'data/train2014'
+VGG_PATH = '/home/wode-user/shared/modelzoo/vgg19/imagenet-vgg-verydeep-19.mat'
+TRAIN_PATH = '/home/wode-user/shared/data/deeplearning/coco_captioning/train2014/'
 BATCH_SIZE = 4
-DEVICE = '/gpu:0'
+DEVICE = '/cpu:0'
 FRAC_GPU = 1
 
 def build_parser():
